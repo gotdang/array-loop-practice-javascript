@@ -14,7 +14,7 @@
   console.log(`Array apples: ${apples}.`);
 
   // 2. Show how many elements are in array apples.
-  console.log(`The array apples has ${ apples.length } elements.` );
+  console.log(`The array apples has ${ apples.length } elements.`);
 
   // 3. Calculate the sum of the numbers in array apples.
   var aTotal = 0;
@@ -62,7 +62,19 @@
   }
 
   // 9. Show the index where 15 first appears in array cards.
+  // Note: There _is_ a built-in array.indexOf method to do this.
+  //       Usually, you will use that method. But for this 
+  //       exercise, write it with a loop.
   console.log(`15 is in position ${ cards.indexOf(15) } of array cards.`);
+  var index_of_15 = -1; // Because array elements start at 0, initialize with 
+  // some other number, so we know if it's found at all.
+  for (let i = 0; i < cards.length; i++) {
+    if (cards[i] == 15) { // if cards[i] is 15, we found it!
+      index_of_15 = i; // store the result
+      break; // break out of the loop, since we found the answer.
+    }
+  }
+  console.log(`15 is in position ${ index_of_15 } of array cards.`);
 
   // 10. How many times does 15 appear in array cards?
   var appearance15 = 0;
