@@ -131,6 +131,14 @@
   console.log(`15 appears in positions ${ cIndices } in array cards.`);
 
   // 13. How many numbers are in array cards are even?
+  var evenCount = 0;
+  for (let i = 0; i < cards.length; i++) {
+    if (cards[i] % 2 == 0) {  // even numbers have mod == 0
+      evenCount += 1;
+    }
+  }
+  // show the final result
+  console.log(`${evenCount} numbers in the cards array are even.`);
 
 
   // 14. Show array dogs.
