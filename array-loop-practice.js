@@ -142,6 +142,7 @@
 
 
   // 14. Show array dogs.
+  console.log(`Array dogs: ${dogs}.`);
 
 
   // 15. How large is array dogs?
