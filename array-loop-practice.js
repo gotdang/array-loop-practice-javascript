@@ -140,14 +140,8 @@
   // show the final result
   console.log(`${evenCount} numbers in the cards array are even.`);
 
-
-  // 14. Show array dogs.
-  console.log(`Array dogs: ${dogs}.`);
-
-
-  // 15. How large is array dogs?
-  console.log(`The array dogs has ${ dogs.length } elements.`);
-
+Here are some new lines.
+A second line, so that it's plural.
 
   // 16. Calculate whether there are more than 8 29s in array dogs.
 
