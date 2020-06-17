@@ -146,6 +146,7 @@
 
 
   // 15. How large is array dogs?
+  console.log(`The array dogs has ${ dogs.length } elements.`);
 
 
   // 16. Calculate whether there are more than 8 29s in array dogs.
